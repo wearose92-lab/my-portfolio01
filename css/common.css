@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@font-face {
+    font-family: '';
+    src: url('./fons/KoPubDotumPM.woff2') format('woff2'),
+        url('./fons/KoPubDotumPM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('../fons/KoPubDotumPB.woff2') format('woff2'),
+        url('../fons/KoPubDotumPB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('../fons/KoPubDotumPL.woff2') format('woff2'),
+        url('../fons/KoPubDotumPL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

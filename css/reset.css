@@ -1,0 +1,234 @@
+@charset "utf-8";
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strong, sub, sup, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header,
+nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a {
+    color:#2B2B2B;
+	text-decoration: none;
+}
+a:active, a:hover, a:focus {
+	text-decoration:none;
+}
+img {
+	vertical-align: bottom;
+}
+input[type="text"], button, select {	
+	outline: none;
+}
+button {
+	cursor: pointer;
+}
+/* ios대응 */
+/* text크기를 자동으로 조절하지 말아라 */
+html {
+	-webkit-text-size-adjust: none;
+	-moz-text-size-adjust: none;
+	-ms-text-size-adjust: none;
+	-o-text-size-adjust: none;	
+}
+/* select 화살표 */ 
+/* 화살표없애기 for ie10, 11 */
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url('../reset/select-arrow.png') no-repeat 99% 45%;
+}
+select::-ms-expand {
+	display: none; 	
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary {
+	display:block;
+}
+audio, canvas, video {
+    display:inline-block;
+}
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+audio, canvas, img, video {
+	vertical-align:middle;
+}
+
+blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:"";
+	content:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+img, fieldset {
+	border:0;
+}
+input, select, textarea {
+	line-height:1.2;
+	vertical-align:middle;
+}
+body, table, th, td, input,
+textarea, button, select {
+	font-family:'KoPubDotum','돋움','Noto Sans KR',Dotum, Arial, sans-serif;
+	font-size:1em;
+	color:#666;
+}
+button, select {
+	text-transform:none;
+}
+button, input {
+	line-height:normal;
+}
+textarea {
+	resize:vertical;
+	overflow:auto;
+}
+address, caption, cite, code,
+dfn, em, var {
+	font-style:normal;
+	font-weight:normal;
+}
+label {
+	cursor:pointer;
+}
+/* For Screen Reader */
+legend {
+	display:none;
+	visibility:hidden;
+}
+/* For Screen Reader */
+caption {
+	display:none;
+	visibility:hidden;
+}
+hr {
+	display:block;
+	height:1px;
+	border:0;
+	border-top:1px solid #ccc;
+	margin:1em 0;
+	padding:0;
+}
+
+button{
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+	border:0px;
+	background:none;
+}
+body.mouse a:focus, 
+body.mouse button:focus{
+	outline:none;
+}
+
+/* input 기본 스타일 초기화 */
+input[type="text"],input[type="password"],input[type="file"],input[type="search"],input[type="email"],
+select,
+textarea{
+   -webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box; 
+	margin:0;
+	padding:0;
+}
+input::-ms-clear, 
+select::-ms-expand{ display: none; }
+select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' style='opacity:0.5'  viewBox='0 0 6.42 4'><path d='M6.42.69,3.21,4,0,.69.71,0l2.5,2.57L5.71,0Z'/></svg>") no-repeat;
+	background-size: 10px;
+	background-position: calc(100% - 10px) 50%;
+	background-repeat: no-repeat;
+}
+textarea{resize:none;}
+@media all and (max-width:994px){
+	.ios-os input[type="text"],
+	.ios-os input[type="search"],
+	.ios-os input[type="password"],
+	.ios-os input[type="file"],
+	.ios-os input[type="email"],
+	.ios-os select,
+	.ios-os textarea{
+		    -webkit-appearance: none;
+		    -moz-appearance: none;
+			appearance: none;
+			border-radius:0;
+	}
+}
+
+:root{
+	--main-color: #0F5676;
+    --area-wide-width: 1620px;
+    --area-box-width: 1520px;
+    --area-width: 1320px;
+    --area-padding: 30px;
+    --header-height: 100px;
+    --header-top: 2rem;
+    --sub-visual-height: 93.3rem;
+    --sub-visual-img-height: 50rem;
+    --sub-menu-height: 69px;
+    --full-height: 100vh;
+    --transition-custom: all 0.4s ease-in-out;
+    --transition-custom2: all 0.8s ease-in-out;
+    --font-family1: 'Wanted Sans Variable', 'Noto Sans KR', "나눔고딕", NanumGothic, "Nanum Gothic", "돋움", Dotum, Arial, sans-serif;
+}
