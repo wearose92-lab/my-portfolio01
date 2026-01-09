@@ -1,1 +1,240 @@
 
+@ -1 +1,238 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>월드씨앤피</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const mobileMenu = document.querySelector('.M_menuWrap');
+
+            menuToggle.addEventListener('click', function() {
+                if (mobileMenu.style.display === 'block') {
+                    mobileMenu.style.display = 'none';
+                } else {
+                    mobileMenu.style.display = 'block';
+                }
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="Wrap">
+        <header class="headerWrap">
+            <div class="headerInner">
+                <div>
+                    <h1 class="logo">
+                        <a href="#">
+                            <img src="./images/logo.webp" alt="월드씨앤피">
+                        </a>
+                    </h1>
+                    <div class="langBox">
+                        <ul>
+                            <li><a href="#">KR</a></li>
+                            <li><a href="#">EN</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <nav class="menuWrap">
+                    <ul class="gnb">
+                        <li>
+                            <a href="#">회사소개</a>
+                            <div class="gnb_list02">
+                                <ul>
+                                    <li><a href="#">인사말</a></li>
+                                    <li><a href="#">회사연혁</a></li>
+                                    <li><a href="#">주요설비현황</a></li>
+                                    <li><a href="#">오시는 길</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">사업분야</a>
+                            <div class="gnb_list02">
+                                <ul>
+                                    <li><a href="#">QDM 금형과 양산금형</a></li>
+                                    <li><a href="#">의료사업</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="#">제품정보</a>
+                            <div class="gnb_list02">
+                                <ul>
+                                    <li><a href="#">자동차 정밀부품</a></li>
+                                    <li><a href="#">의료 정밀부품</a></li>
+                                    <li><a href="#">IT 정밀부품</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#">자료실</a></li>
+                        <li><a href="#">견적문의</a></li>
+                    </ul>
+                </nav>
+                <!--모바일-->
+                <button class="menu-toggle">☰</button> <!-- 햄버거 메뉴 버튼 -->
+                <nav class="M_menuWrap">
+                    <div class="M_gnbWrap">
+                        <ul class="M_gnb">
+                            <li>
+                                <a href="#">회사소개</a>
+                                <div class="gnb_list02">
+                                    <ul>
+                                        <li><a href="#">인사말</a></li>
+                                        <li><a href="#">회사연혁</a></li>
+                                        <li><a href="#">주요설비현황</a></li>
+                                        <li><a href="#">오시는 길</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">사업분야</a>
+                                <div class="gnb_list02">
+                                    <ul>
+                                        <li><a href="#">QDM 금형과 양산금형</a></li>
+                                        <li><a href="#">의료사업</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">제품정보</a>
+                                <div class="gnb_list02">
+                                    <ul>
+                                        <li><a href="#">자동차 정밀부품</a></li>
+                                        <li><a href="#">의료 정밀부품</a></li>
+                                        <li><a href="#">IT 정밀부품</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">자료실</a></li>
+                            <li><a href="#">견적문의</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <div class="mainFulpage">
+            <section class="mainBox01">
+                <div class="mainBox01_img"></div>
+                <div class="main01_txtBox">
+                    <div class="main01_txt">
+                        <h2 class="m_smallTxt">Speed! Quality are our Pride!</h2>
+                        <h2 class="m_bicTxt">변화에 도전하는 미래를 창조하는 기업</h2>
+                        <button><a href="">WCP 주요설비</a></button>
+                    </div>
+                </div>
+            </section>
+            <section class="mainBox02">
+                <div class="main_h_Box">
+                    <div class="titleWrap">
+                        <h3>BUSINESS</h3>
+                        <h4>월드씨앤피는 오랜 경험과 다년간의 기술 축적을 총해 최고의 기술력을 보유하고 있습니다.</h4>
+                    </div>
+                </div>
+                <div class="businessBox main02_Left">
+                    <div>
+                        <p>QDM</p>
+                        <button class="more_btn">VIEW MORE</button>
+                    </div>
+                </div>
+                <div class="businessBox main02_Right">
+                    <div>
+                        <P>의료기기</P>
+                        <button class="more_btn">VIEW MORE</button>
+                    </div>
+                </div>
+            </section>
+            <section class="mainBox03">
+                <div class="main_h_Box">
+                    <div class="titleWrap">
+                        <h3>PRODUCTS</h3>
+                        <h4>최고의 제품,최상의 서비스, 최적의 가격으로 항상 고객과 함께 하겠습니다.</h4>
+                    </div>
+                    <button class="more_btn"><a href="#">VIEW MORE</a></button>
+                    <ul class="prodcutList">
+                        <li class="carBox">
+                            <a href="#">
+                                <span>자동차 정밀부품</span>
+                            </a>
+                        </li>
+                        <li class="mediBox">
+                            <a href="#">
+                                <span>의료 정밀부품</span>
+                            </a>
+                        </li>
+                        <li class="itBox">
+                            <a href="#">
+                                <span>IT 정밀부품</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="mainBox04">
+                <div class="main_h_Box">
+                    <div class="titleWrap">
+                        <h3>CONTACT US</h3>
+                        <h4>전문성과 기술력으로 고객의 맞춤 서비스를 제공해드립니다.</h4>
+                        <button>1&#58;1 INQUIRY</button>
+                    </div>
+                </div>
+            </section>
+            <section class="mainBox05">
+                <div class="main05_Left">
+                    <p><a>CATALOG</a></p>
+                </div>
+                <div class="main05_Right">
+                    <p><a>DATA ROOM</a></p>
+                </div>
+            </section>
+            <section class="partnerWrap">
+                <div class="titleWrap">
+                    <h3>PARTNERS</h3>
+                    <h4>월드씨앤피와 함께하는 파트너스 기업</h4>
+                </div>
+                <div class="partnerInner">
+                    <ul>
+                        <li><a href="#" target="_blank"><img src="./images/partnerbanner01.webp" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="./images/partnerbanner02.webp" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="./images/partnerbanner03.webp" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="./images/partnerbanner07.webp" alt=""></a></li>
+                        <li><a href="#" target="_blank"><img src="./images/partnerbanner10.webp" alt=""></a></li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+        <footer class="footerWrap">
+            <div class="footerInner">
+                <div class="footerInfo">
+                    <ul>
+                        <li><a href="#">개인정보처리방침</a></li>
+                        <li><a href="#">이메일무단수집거부</a></li>
+                        <li><a href="#">관리자</a></li>
+                    </ul>
+                    <p class="f_logo"><img src="./images/f_logo.webp"></p>
+                    <p>&#40;주&#41;월드씨앤피 인천광역시 부평구 부평북로 171 &#40;청천동&#41;</p>
+                    <p>사업자등록번호 : 122-81-76828 TEL : 032-521-6590 FAX : 032-521-6589 E-MAIL : WCP&#64;Chol.com</p>
+                    <p>COPYRIGHT &copy; 2024 WORLDCNP. ALL RIGHTS RESERVED.</p>
+                </div>
+                <div class="footerCenter">
+                    <p class="f_center">고객센터</p>
+                    <p class="f_number">032.521.6590</p>
+                    <p class="f_time">평일 09:00 ~ 18:00 &#40;점심시간 12:00~13:00&#41;<br>
+                        주말 및 공휴일 휴무</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
