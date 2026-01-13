@@ -1,0 +1,44 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@font-face {
+    font-family: '';
+    src: url('./fons/KoPubDotumPM.woff2') format('woff2'),
+        url('./fons/KoPubDotumPM.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('../fons/KoPubDotumPB.woff2') format('woff2'),
+        url('../fons/KoPubDotumPB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: '';
+    src: url('../fons/KoPubDotumPL.woff2') format('woff2'),
+        url('../fons/KoPubDotumPL.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* SCROLL ANIMATION */
+.fade {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  .fade.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  /* HEADER SCROLL EFFECT */
+  .headerWrap.scrolled {
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  }
