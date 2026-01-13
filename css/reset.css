@@ -217,12 +217,12 @@ textarea{resize:none;}
 }
 
 :root{
+	--header-h: 70px;
 	--main-color: #0F5676;
     --area-wide-width: 1620px;
     --area-box-width: 1520px;
     --area-width: 1320px;
     --area-padding: 30px;
-    --header-height: 100px;
     --header-top: 2rem;
     --sub-visual-height: 93.3rem;
     --sub-visual-img-height: 50rem;
@@ -230,5 +230,5 @@ textarea{resize:none;}
     --full-height: 100vh;
     --transition-custom: all 0.4s ease-in-out;
     --transition-custom2: all 0.8s ease-in-out;
-    --font-family1: 'Wanted Sans Variable', 'Noto Sans KR', "나눔고딕", NanumGothic, "Nanum Gothic", "돋움", Dotum, Arial, sans-serif;
+    --font-family1: 'KoPubDotum','Wanted Sans Variable', 'Noto Sans KR', "나눔고딕", NanumGothic, "Nanum Gothic", "돋움", Dotum, Arial, sans-serif;
 }
